@@ -1,29 +1,33 @@
-/* eslint-disable */
-import React from "react";
+import React from 'react';
 
 /* Buttons container component */
 export default class ButtonsContainer extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
+
   render() {
     const buttons = [
-      "AC",
-      "+/-",
-      "%",
-      "÷",
+      'AC',
+      '+/-',
+      '%',
+      '÷',
       7,
       8,
       9,
-      "x",
+      'x',
       4,
       5,
       6,
-      "-",
+      '-',
       1,
       2,
       3,
-      "+",
+      '+',
       0,
-      ".",
-      "=",
+      '.',
+      '=',
     ];
 
     return (
