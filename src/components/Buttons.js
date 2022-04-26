@@ -22,11 +22,12 @@ export default class ButtonsContainer extends React.Component {
       3,
       "+",
       0,
+      ".",
       "=",
     ];
-    let i = 0;
+
     return (
-      <div>
+      <div className="buttons-container">
         {buttons.map((button) => (
           <button type="button" key={button}>
             {button}

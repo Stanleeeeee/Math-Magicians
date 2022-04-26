@@ -5,6 +5,6 @@ import React from "react";
 
 export default class Display extends React.Component {
   render() {
-    return <input type="text" name="display" id="display" placeholder="0" />;
+    return <div className="display">0</div>;
   }
 }
